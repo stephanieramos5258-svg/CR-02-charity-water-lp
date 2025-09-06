@@ -26,7 +26,7 @@ Fonts:
 /* Set up the main font and background color for the whole page */
 body {
   background-color: #f4f8fb; /* Soft light blue for a fresh look */
-  font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
+  font-family: 'Proxima Nova', 'Avenir'; /* Modern, clean fonts */
   margin: 0;
   padding: 0;
   color: #222;
@@ -45,7 +45,7 @@ section {
 .hero {
   position: relative; /* Needed for overlay */
   /* Set a background image that covers the whole section */
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
+  background-image: url('https://cdn2.dropmarkusercontent.com/52043/715e79af6d8e2acf704215ecd5bf1d664fc827cf53946d3703f7381716c649be/preview/Madagascar_2019_CG-2216.jpg?Expires=1757125869&Signature=gIRYwYkAWr7A4hh~1g3Jt3CTojbgHqIzfutrH7ljNh5yQA8YLvmXy3epREVNSMzaO0UKmjUpS~Ou-G3qfy8AxXOJmnZiYhAWFJCgjTp~F37hhzHWwfirKSlNyLrm07FmBBnJCd2V~40wQ-~3rBG~rNZrBttfgMZWoVRyPDZznLceMbh5ciwB9mNIkYfJrSu7i-g27QqHpBKzXkHsJx3ol3KbDYzoGa0lGXnIbx-XrsaeO7iC7j1TeK6eGxs2UEYnqAPtj60Zal1vpdIV80wj7tKNEHVFXtQivbHQaOrf4s20GMrHboX2FhqSuIeHY2M0Mp83b0nn-ccmNOdcTg1BTQ__&Key-Pair-Id=APKAITQYWVEN757ZA4KQ');
   background-size: cover;      /* Make the image cover the whole area */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ section {
   /* Add a dark overlay for better text readability */
   /* This uses a simple linear-gradient overlay */
   background-blend-mode: darken;
-  background-color: rgba(46, 157, 247, 0.45); /* Blue overlay */
+
 }
 
 /* Make the headline bold and modern */
@@ -86,15 +86,15 @@ section {
 
 /* Add accent color to section headings */
 h2 {
-  color: #2E9DF7; /* Primary blue */
+  color: #1a1a1a; /* black */
   margin-top: 0;
   font-weight: bold;
 }
 
 /* Call-to-Action Section Styles */
 .call-to-action {
-  background-color: #FFC907; /* Primary Yellow */
-  color: #222;
+  background-color: #fed8c1; /*  pastel yellow */
+  color: #1a1a1a;
   text-align: center;
   padding: 30px 20px;
 }
@@ -102,7 +102,7 @@ h2 {
 /* Style the impact story image */
 .impact-image {
   width: 100%;
-  max-width: 320px;
+  max-width: 500px;
   border-radius: 10px;
   margin-bottom: 16px;
   box-shadow: 0 2px 8px rgba(46, 157, 247, 0.10);
@@ -111,8 +111,8 @@ h2 {
 /* Donate Button Styles */
 .donate-button {
   display: inline-block;
-  background-color: #4FCB53; /* Green */
-  color: #fff;
+  background-color: #cbccd1; /* pastel blue */
+  color: #1a1a1a;
   padding: 14px 32px;
   text-decoration: none;
   border-radius: 6px;
@@ -127,7 +127,7 @@ h2 {
 
 /* Change button color when hovered */
 .donate-button:hover {
-  background-color: #159A48; /* Dark Green */
+  background-color: #77a8bb; /* light blue */
   transform: translateY(-2px) scale(1.04); /* Slight lift */
 }
 
